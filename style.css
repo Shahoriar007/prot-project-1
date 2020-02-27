@@ -1,0 +1,120 @@
+/* ------------All------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+section{
+    height: 922px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+    padding-bottom: 40px;
+}
+/* ---------------------------------------Heading---------------------------------------- */
+.name{
+    color: #e8457d;
+}
+.info{
+    padding-bottom: 50px;;
+}
+
+.half-width-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 221px;
+}
+
+
+.half-width-right{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 75px;
+}
+
+.half-width-right img{
+    width: 100%;
+}
+.header-bg{
+    background-image: url("Images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient( 45deg, #e8457d,#ff9f33);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* --------------------------------------Biography-------------------------------------------- */
+
+.biography-bg{
+    background-image: url("Images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+img.bio-img {
+    width: 80%;
+}
+/* -----------------------------------------Letest Work---------------------------------------- */
+.latest-work-bg{
+    background-image: url(Images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.letest-work{
+    width: 28%;
+    float: left;
+    margin-left: 4%;
+}
+.letest-work:hover{
+    box-shadow: 15px 15px 10px grey;
+    transition: 0.5s;
+}
+/* ------------------------------------Footer--------------------------------------------------- */
+.footer-bg{
+    background-image: url(Images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 770px;
+}
+.fooer-all{
+    text-align: center;
+    padding: 30px;
+}
+.footer-all h4{
+    opacity: 0.5;
+}
+.email{
+    background-color: #e8457d;
+    margin-left: 35%;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 5px;
+    
+}
+.email a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.email h4{
+    color: white;
+    font-weight: 200;
+}
+
+.last-line {
+    margin-top: 15%;
+}
